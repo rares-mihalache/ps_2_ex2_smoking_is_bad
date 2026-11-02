@@ -1,0 +1,18 @@
+[workspace]
+authors = ["Rares Mihalache <rares.mihalache10@gmail.com>"]
+channels = ["conda-forge"]
+name = "smoke"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.15.2,<3.16"
+pandas = ">=3.1.0,<4"
+numpy = ">=2.5.4,<3"
+matplotlib = ">=3.11.2,<4"
+seaborn = ">=0.13.2,<0.14"
+ipykernel = ">=7.4.0,<8"
+pre-commit = ">=4.7.0,<5"
+nbstripout = ">=0.9.1,<0.10"
